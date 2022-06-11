@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express Basic</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae porro
+      numquam maiores ut? Quidem amet voluptatibus adipisci! Sapiente ipsum
+      autem blanditiis. Molestiae beatae adipisci ipsum soluta aliquid tempore
+      vero dolorem ex voluptates, reiciendis quia suscipit et sit, iure,
+      reprehenderit cumque delectus velit esse quaerat. Blanditiis at sapiente
+      reprehenderit sint ea obcaecati saepe enim ipsa fugit recusandae facilis
+      quasi totam sit aspernatur, in eos omnis dignissimos consequatur minima
+      soluta? Ad vitae saepe eius earum obcaecati inventore quidem quasi,
+      praesentium beatae quo, quisquam est aut? Praesentium modi magni,
+      possimus, nesciunt molestiae corrupti est sint tenetur, delectus dolor
+      maxime architecto consectetur quaerat sapiente.
+    </p>
+    <p>Nama Saya : <%= name %></p>
+    <p>Umur Saya : <%= umur %></p>
+    <h1>Riwayat Pendidikan</h1>
+    <% for(let i=0; i < pendidikan.length; i++) { %>
+    <ul>
+      <li><%= pendidikan[i].instansi %></li>
+    </ul>
+    <% } %>
+  </body>
+</html>

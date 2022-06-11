@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "name": "express-templating",
+  "version": "1.0.0",
+  "description": "EJS Templating",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GNS",
+  "license": "ISC"
+}
